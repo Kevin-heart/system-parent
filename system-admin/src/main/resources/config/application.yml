@@ -1,0 +1,10 @@
+# 端口号
+server:
+  port: 8001
+
+spring:
+  freemarker:
+    check-template-location: false
+  # 环境的配置: dev 开发 test 测试  prod生产
+  profiles:
+    active: dev
