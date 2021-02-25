@@ -8,3 +8,8 @@ spring:
   # 环境的配置: dev 开发 test 测试  prod生产
   profiles:
     active: dev
+
+# 返回 Json的全局时间格式配置当前时间
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GTM+8
