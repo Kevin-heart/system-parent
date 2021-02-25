@@ -12,4 +12,10 @@ spring:
 # 返回 Json的全局时间格式配置当前时间
   jackson:
     date-format: yyyy-MM-dd HH:mm:ss
-    time-zone: GTM+8
+    time-zone: GMT+8
+
+# SpringSecurity 安全组默认验证/认证初始密码
+  security:
+    user:
+      name: admin
+      password: 11111111
